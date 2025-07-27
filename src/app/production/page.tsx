@@ -83,6 +83,16 @@ export default function Production() {
               </p>
             </div>
           </div>
+
+          {/* Призыв к действию */}
+          <div className="text-center">
+            <Link 
+              href="/production/philosophy"
+              className="inline-block bg-wine hover:bg-wine/90 text-stone font-heading text-lg font-medium px-8 py-4 transition-all duration-300 transform hover:scale-105 shadow-lg uppercase tracking-wide"
+            >
+              Узнать подробнее о нашей философии
+            </Link>
+          </div>
         </div>
       </section>
 
