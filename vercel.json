@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "installCommand": "npm install",
+  "functions": {
+    "app/**": {
+      "runtime": "@vercel/node@20.15.1"
+    }
+  },
+  "regions": ["fra1"]
+} 
